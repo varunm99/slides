@@ -1,0 +1,5 @@
+_site/
+*.html
+.quarto/
+.DS_Store
+*_files/

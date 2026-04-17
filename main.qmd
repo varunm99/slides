@@ -1,0 +1,29 @@
+---
+title: "Slides"
+author: "Varun"
+format:
+  clean-nav-revealjs:
+    slide-number: "c/t"
+    # Point at a project-local nav-sections.js to override the default
+    # sidebar sections. Remove this block to use the default sections
+    # shipped with the extension.
+    # include-in-header:
+    #   - text: |
+    #       <script src="nav-sections.js"></script>
+subtitle: "A starter template for the clean-nav theme"
+---
+
+## Verification and Robust Control of Hybrid Systems
+::: {.column width="50%"}
+- View robust periodic walking as maximizing the size of a local invariant set
+- Rapidly compute an approximation of the forward-invariant set using interval analysis
+- Fully differentiable method lets us maximize the size of the invariant set by optimizing the feedback controller
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="45%"}
+![](images/7Link.PNG){fig-align="center" width=50%}
+
+![](images/NT_No_Control.png){fig-align="center" width=100%}
+![](images/NT_Opt_Control.png){fig-align="center" width=100%}
+:::
